@@ -34,6 +34,31 @@ Input your backlog. Get back a fully-ranked, AI-reasoned prioritisation with:
 
 ---
 
+## 📸 UI Showcase
+
+<details>
+<summary><strong>View Application Screenshots (Dark & Light Mode)</strong></summary>
+<br>
+
+**Light Mode — Clean, high-contrast entry state**
+![Light mode empty backlog](assets/light-mode-empty.png)
+
+**Light Mode — Building the backlog**
+![Light mode with backlog](assets/light-mode-backlog.png)
+
+**Dark Mode — Bento grid layout with stacked backlog**
+![Dark mode backlog](assets/dark-mode-backlog.png)
+
+**Dark Mode — Staggered, animated results cards**
+![Dark mode results](assets/dark-mode-results.png)
+
+**Dark Mode — Stakeholder objection & interactive Feature Map**
+![Dark mode feature map](assets/dark-mode-map.png)
+
+</details>
+
+---
+
 ## Engineering Highlights
 
 This isn't a weekend tutorial project. Here's what makes it production-grade:
@@ -165,7 +190,7 @@ ai-prioritisation-engine/
 
 ---
 
-## What I'd Build Next
+## 🚀 Roadmap to Production-Grade AI PM Tool
 
 - **Streamlit Cloud / Railway deployment** with secrets management
 - **Persistent backlog** via SQLite or Supabase

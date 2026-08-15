@@ -2,10 +2,10 @@
 
 > **Turn a messy product backlog into a ranked, reasoned, stakeholder-ready roadmap — in under 10 seconds.**
 
-A full-stack AI product tool built with Streamlit, Groq Llama 3.3 70B, and a hand-crafted dual-theme design system. Designed to showcase the intersection of **product thinking**, **LLM engineering**, and **production-quality UI craft**.
+A full-stack AI product tool built with Streamlit, Groq GPT OSS 20 B, and a hand-crafted dual-theme design system. Designed to showcase the intersection of **product thinking**, **LLM engineering**, and **production-quality UI craft**.
 
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.60+-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io)
-[![Groq](https://img.shields.io/badge/Groq-Llama_3.3_70B-F55036)](https://groq.com)
+[![Groq](https://img.shields.io/badge/Groq-GPT_OSS_20_B-F55036)](https://groq.com)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-22C55E)](LICENSE)
 
@@ -113,7 +113,7 @@ User Input (Streamlit form)
 └─────────────────────┘
          │
          ▼
-  Groq Llama 3.3 70B
+  Groq GPT OSS 20 B
   (structured JSON response)
          │
          ▼
@@ -174,7 +174,7 @@ ai-prioritisation-engine/
 | Layer | Choice | Why |
 |---|---|---|
 | UI | Streamlit | Rapid iteration without sacrificing full CSS control |
-| LLM | Groq Llama 3.3 70B | Sub-second inference, free tier, structured output |
+| LLM | Groq GPT OSS 20 B | Sub-second inference, free tier, structured output |
 | Charts | Plotly Express | Theme-aware, interactive, zero extra JS |
 | PDF | fpdf2 | Pure Python, no headless browser, no dependencies |
 | Styling | Vanilla CSS (custom properties) | Full control; no framework lock-in |

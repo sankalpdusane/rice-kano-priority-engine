@@ -89,7 +89,7 @@ def prioritise_features(features: list[dict]) -> list[dict]:
 
         try:
             response = client.chat.completions.create(
-                model="llama-3.3-70b-versatile",
+                model="openai/gpt-oss-20b",
                 messages=[
                     {"role": "system", "content": PRIORITISER_SYSTEM_PROMPT},
                     {"role": "user", "content": user_message},
